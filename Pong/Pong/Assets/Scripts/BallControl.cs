@@ -37,6 +37,18 @@ public class BallControl : MonoBehaviour {
         {
             vel.x = rb2d.velocity.x;
             vel.y = rb2d.velocity.y / 2.0f + (col1.collider.attachedRigidbody.velocity.y / 3.0f);
+            rb2d.velocity = vel;
         }
+    }
+    void RestartGame()
+    {
+        ResetBall();
+        Invoke("GoBall", 1);
+    }
+    void ResetBall()
+    {
+        vel = Vector2.zero;
+        rb2d.velocity = vel;
+        transform.position = Vector2.zero;
     }
 }
