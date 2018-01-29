@@ -12,16 +12,24 @@ public class ClickTile : MonoBehaviour {
     public int myId = 0;
     public int myNumber = 0;
 
-	// Use this for initialization
-	void Start () {
+    private bool mouseIsOver = false;
+
+    static public GameObject frameRef;
+
+    // Use this for initialization
+    void Start () {
+        myNumber = Random.Range(-9, 10);
         isOpen = true;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        CloseTile();
+        FrameManager.tileArray[myId] = gameObject;
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (Input.GetMouseButtonDown(0))
         {
-
+            if (!mouseIsOver)
+                return;
             if (isOpen)
                 CloseTile();
             else
@@ -34,12 +42,25 @@ public class ClickTile : MonoBehaviour {
     }
     public void OpenTile()
     {
+        
         GetComponent<SpriteRenderer>().sprite = tileOpen;
+        GetComponentInChildren<TextMesh>().text = myNumber.ToString();
         isOpen = true;
+        frameRef.GetComponent<FrameManager>().PlayTile(myId, myNumber);
     }
     public void CloseTile()
     {
         GetComponent<SpriteRenderer>().sprite = tileGliph;
         isOpen = false;
+        GetComponentInChildren<TextMesh>().text = "";
+    }
+    void OnMouseEnter()
+    {
+        mouseIsOver = true;
+    }
+
+    void OnMouseExit()
+    {
+        mouseIsOver = false;
     }
 }
