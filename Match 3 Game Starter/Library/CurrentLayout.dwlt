@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 610
     height: 947
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
   controlID: 92
 --- !u!114 &4
@@ -92,7 +92,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -136,8 +136,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 711, y: 471}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 9
 --- !u!114 &7
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 610
     height: 481
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 421
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -313,8 +313,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9cfbffff
-    m_LastClickedID: -1124
+    m_SelectedIDs: 9e280000
+    m_LastClickedID: 10398
     m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -411,18 +411,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Match 3 Starter/Scripts/Managers
+    - Assets/Match 3 Starter/Scripts/Board and Grid
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Match 3 Starter/Scripts/Managers
+  - Assets/Match 3 Starter/Scripts/Board and Grid
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\CS4450\CS4450\Match 3 Game Starter
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8270000
-    m_LastClickedID: 10168
+    m_SelectedIDs: a4270000
+    m_LastClickedID: 10148
     m_ExpandedIDs: 00000000d8170000ec170000181800005e1a0000941a0000c01a00004a1b00005a1b00006a1b0000801b00008c1b00009a1b0000a01b0000a41b0000c01b0000d01b0000d41b0000f01b0000f61b0000fa1b0000201c0000881c0000901c0000aa1c0000ae1c0000b21c0000ba1c0000da1c0000221d0000361d0000881d0000921d0000b01d00002a1e0000181f00002a1f0000341f0000421f00004c1f00005e1f0000821f0000921f0000941f00009a1f0000f61f00004420000054200000a4200000b62000004c2100005a210000682100006a21000072210000862100008a2100008e210000ac2100008022000084220000c6220000c8220000cc220000d4220000e2220000f0220000fe220000102300001a230000202300004e2300005e23000060230000c0230000c4230000942400001225000024260000162700006e27000098270000a4270000b2270000b8270000d4270000002800002a2800003a28000054280000722900007429000076290000782900007a2900007c2900007e29000080290000822900008429000086290000882900008a2900008c2900008e29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
