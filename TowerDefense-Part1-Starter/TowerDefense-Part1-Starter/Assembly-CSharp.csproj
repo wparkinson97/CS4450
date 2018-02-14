@@ -51,12 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameManagerBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\GameManagerBehavior.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\MonsterData.cs" />
+     <Compile Include="Assets\Scripts\MoveEnemy.cs" />
      <Compile Include="Assets\Scripts\PlaceMonster.cs" />
+     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\Tutorial.cs" />
      <None Include="Assets\Font\readme.txt" />
  <Reference Include="UnityEngine.UI">
