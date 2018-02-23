@@ -198,6 +198,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012531917692, guid: a219ef1f90293274e8992105dff1e0d1, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012531917692, guid: a219ef1f90293274e8992105dff1e0d1, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a219ef1f90293274e8992105dff1e0d1, type: 2}
   m_IsPrefabParent: 0
@@ -525,6 +533,38 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da0922812e206c047a57c2a8ddbdbaa8, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &415848728 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011707204276, guid: 99de48f88f696234dae13b6f3739c498,
+    type: 2}
+  m_PrefabInternal: {fileID: 1900111925}
+--- !u!114 &415848729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415848728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56840146c409ec44aa699e578b729479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationsPerMinute: 640
+--- !u!114 &415848730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415848728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944d7b5e7896d8741b1855daa16db8a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDeathPrefab: {fileID: 1129446262776102, guid: 1f158244afd82c74fa428a9f42392fb2,
+    type: 2}
+  deathClip: {fileID: 8300000, guid: 20d68b3df7b8bf047a3ed6c5e47ae6c5, type: 3}
+  hitSprite: {fileID: 21300000, guid: c01dd81db9e36f847bb7af2156fe8e9f, type: 3}
 --- !u!1 &574249633
 GameObject:
   m_ObjectHideFlags: 0

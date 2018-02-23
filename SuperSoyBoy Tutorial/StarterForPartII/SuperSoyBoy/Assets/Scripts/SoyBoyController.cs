@@ -77,7 +77,8 @@ public class SoyBoyController : MonoBehaviour {
             }
             animator.SetBool("IsOnWall", false);
         }
-        if (jumpDuration > jumpDurationThreshold) input.y = 0f;
+        if (jumpDuration > jumpDurationThreshold) input.y = 0f;
+
     }
 
     void FixedUpdate()
